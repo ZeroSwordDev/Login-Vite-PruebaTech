@@ -1,4 +1,5 @@
-import { useState } from "react";
+import image  from '../src/assets/LOGO.png'
+import image2  from '../src/assets/user.png'
 import "./App.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <div className="container">
         <div className="row">
           <img
-            src="../src/assets/LOGO.png"
+            src={image}
             alt=""
             className="image-ccu-absolute"
           />
@@ -18,7 +19,7 @@ function App() {
               <p className="text-inventario">Inventario</p>
             </div>
             <div className="image-container-user">
-              <img src="../src/assets/user.png" alt="" className="image-user" />
+              <img src={image2} alt="" className="image-user" />
             </div>
           </div>
           <div className="right">
